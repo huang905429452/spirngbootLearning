@@ -28,7 +28,7 @@ public class ApplicationTests {
     @Before
     public void setUp() throws Exception {
         mvc = MockMvcBuilders.standaloneSetup(new UserController()).build();
-        System.out.println(mvc);
+        System.out.println(mvc+"hty");
     }
 
     @org.junit.Test
